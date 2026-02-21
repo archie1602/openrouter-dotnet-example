@@ -1,0 +1,19 @@
+@AspNetCore_HostAddress = http://localhost:5193
+
+### POST /solve endpoint: send a math problem to be solved by the LLM
+POST {{AspNetCore_HostAddress}}/solve
+Content-Type: application/json
+
+{
+  "problem": "Solve equation x^2-1=0"
+}
+
+###
+
+### POST /solve endpoint: missing problem field (expect 400 Bad Request)
+POST {{AspNetCore_HostAddress}}/solve
+Content-Type: application/json
+
+{}
+
+###
