@@ -2,7 +2,7 @@
 
 Example ASP.NET Core Web API project that integrates with [OpenRouter](https://openrouter.ai/) using the official [OpenAI NuGet package](https://www.nuget.org/packages/OpenAI).
 
-This is the companion code for the blog post: [How to Use OpenRouter API in ASP.NET Core Web API](https://makarchie.com/posts/openrouter-in-dotnet/)
+This is the companion code for the blog post: [How to Use OpenRouter API in ASP.NET Core Web API](https://makarchie.com/posts/how-to-use-openrouter-api-in-aspnet-core-web-api/)
 
 ## Quick Start
 
